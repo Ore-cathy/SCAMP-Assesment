@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(fibonacci.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #464646;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  width: 50%;
+  margin: 70px 100px;
+
+  background-color: rgba(250, 245, 245, 0.9);
+  padding: 40px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 55px 50px 20px #b6b6b6;
+}
+.n-input {
+  padding: 7px;
+}
+button {
+  background-color: rgba(92, 4, 4, 0.9);
+  color: white;
+  border-radius: 50px;
+  border-style: none;
+  padding: 7px;
+}
+.fibonacciSequence {
+  color: rgb(121, 3, 3);
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    min-height: 600px;
+    width: 80%;
+    margin: 0px;
+  }
+  button {
+    margin-top: 8px;
+  }
+}
